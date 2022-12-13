@@ -6,9 +6,9 @@ document.write('</div>');
 document.write('');
 document.write('<p>display: contents does not work in Edge, prior version 79.</p>');
 
-<script>
+
   var id = "1sVVDut8dAcYV0zpNb8F5M4Gf4SsFXrZAkDJkTVwqgF0"
 const css_color = SpreadsheetApp.openById(id);
 const css_color1 = css_color.getSheetByName("css_color");
 const color_button = css_color1.getRange('B1').getValues()
-</script>
+
